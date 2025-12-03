@@ -1,4 +1,0 @@
-eatsyscall: eatsyscall.o
-	ld -g -o eatsyscall eatsyscall.o
-eatsyscall.o: eatsyscall.asm
-	yasm -g dwarf2 -f elf64  eatsyscall.asm -l eatsyscall.lst
